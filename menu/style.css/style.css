@@ -1,0 +1,36 @@
+body{
+    direction: rtl;
+    font-family: vazirmatn ;
+    background-color: rgb(188, 183, 183);
+    box-sizing: border-box;
+}
+.navbar{
+    
+    background-color: rgb(91, 88, 88);
+    display: flex;
+    width: 100%;
+    
+
+}
+.navbar a{
+    text-decoration: none;
+    width: 100px;
+    padding: 1%;
+    color: black;
+    text-align: center;
+    overflow: hidden;
+
+}
+.ms{
+    background-color: rgb(58, 58, 228);
+
+}
+@media(max-width:700px) {
+    .navbar{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        height: 100px;
+    }
+
+}
